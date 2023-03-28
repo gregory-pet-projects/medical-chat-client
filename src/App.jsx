@@ -6,12 +6,14 @@ import "./App.css";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 const client = StreamChat.getInstance(API_KEY);
+
 const App = () => {
+  console.log("client", client);
   return (
     <div className="app__wrapper">
       <Chat client={client} theme="team light">
-        <ChannelListContainer></ChannelListContainer>
-        <ChannelContainer></ChannelContainer>
+        <ChannelListContainer />
+        <ChannelContainer />
       </Chat>
     </div>
   );

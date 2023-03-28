@@ -1,6 +1,6 @@
 import React from "react";
-import HospitalIcon from "../../../../assets/hospital.png";
-import LogoutIcon from "../../../../assets/logout.png";
+import HospitalIcon from "../../assets/hospital.png";
+import LogoutIcon from "../../assets/logout.png";
 
 const SideBar = () => {
   return (
