@@ -7,4 +7,5 @@ export { default as ChannelSearch } from "./ChannelSearch/ChannelSearch";
 export { default as TeamChannelPreview } from "./TeamChannelPreview/TeamChannelPreview";
 export { default as ChannelPreview } from "./ChannelPreview/ChannelPreview";
 export { default as DirectPreview } from "./DirectPreview/DirectPreview";
+export { default as Auth } from "./Auth/Auth";
 
